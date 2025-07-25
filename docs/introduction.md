@@ -22,7 +22,7 @@ Our APIs are built on **PostgreSQL** and powered by **Supabase**, ensuring high 
 
 | API                                   | Description                                                            | Availability    |
 |----------------------------------------|------------------------------------------------------------------------|-----------------|
-| **[Arrivals](arrivals/arrivals-endpoints)** | Our six Fuel Oil/ Heavy Sweet Arrivals reports; Arabian Gulf, North Asia, NW Europe, Red Sea, Singapore and USA - combined into a single accessible source.      | August 2025     |
+| **[Arrivals](arrivals/arrivals-api)** | Our six Fuel Oil/ Heavy Sweet Arrivals reports; Arabian Gulf, North Asia, NW Europe, Red Sea, Singapore and USA - combined into a single accessible source.      | August 2025     |
 | **Arb Fuel Oil +**                       | All Fuel Oil + CBFS + VGO being bought in the WEST and sold in the EAST.                                                | September 2025  |
 | **Arb Crude**                            | All Crude Oil being bought in the WEST and sold in the EAST.                                                | September 2025  |
 | **Iranian Champagne**                     | Tracks the Iranian Tanker Fleet and how their Crude and Fuel Oil is moving.                                             | October 2025    |
@@ -84,7 +84,7 @@ If you have questions, encounter any issues, or need help integrating:
 ---
 
 :::tip Ready to get started?
-Jump to our [Arrivals API](arrivals/arrivals-endpoints.md), explore [Queries & Filtering](queries.md), or visit [Authentication](authentication.md) to begin.
+Jump to our [Arrivals API](arrivals/arrivals-api.md), explore [Queries & Filtering](queries.md), or visit [Authentication](authentication.md) to begin.
 :::
 
 

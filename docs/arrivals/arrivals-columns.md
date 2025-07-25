@@ -1,4 +1,4 @@
-# Arrivals Table & Column Reference
+# Arrivals Column Reference
 
 Both `/arrivals_all` and `/arrivals_latest` endpoints return results in the **same structured format**.  
 This table documents every available column, data type, and its meaning.
