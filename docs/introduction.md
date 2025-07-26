@@ -1,6 +1,6 @@
 # Introduction
 
-# Welcome to the Maven Knowledge API
+# Welcome to the Maven Knowledge API Suite
 
 Maven Knowledge delivers high-integrity market intelligence through a robust, secure, and developer-friendly API platform.
 
