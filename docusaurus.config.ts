@@ -17,6 +17,7 @@ const config: Config = {
   // Set the production url of your site here
   url: 'https://developers.mavenknowledge.net',
   baseUrl: '/',
+  cname: 'developers.mavenknowledge.net',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
