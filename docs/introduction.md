@@ -6,6 +6,17 @@ Maven Knowledge delivers high-integrity market intelligence through a robust, se
 
 Our APIs are built on **PostgreSQL** and powered by **Supabase**, ensuring high reliability, enterprise security, and exceptional performance for both real-time and historical data access. This architecture allows you to seamlessly integrate the oil industry’s most complete accurate and forward-focused view of global Fuel Oil, Feedstock, and Blendable Crude flows into your operational workflows, BI dashboards, or analytic pipelines.
 
+:::info Beta: Maven Knowledge APIs are in Development
+
+**The Maven Knowledge API suite is currently in Beta.**
+
+We're still actively developing features, refining data, and enhancing our documentation.  
+**We welcome all feedback and bug reports—please bear with us and help shape the future of our product and insights!**
+
+_Exciting times—thanks for being part of our early adopter community._
+:::
+
+
 ---
 
 ## Why Maven Knowledge APIs?
@@ -20,13 +31,13 @@ Our APIs are built on **PostgreSQL** and powered by **Supabase**, ensuring high 
 
 ## Available APIs
 
-| API                                   | Description                                                            | Availability    |
-|----------------------------------------|------------------------------------------------------------------------|-----------------|
-| **[Arrivals](arrivals/arrivals-api)** | Our six Fuel Oil/ Heavy Sweet Arrivals reports; Arabian Gulf, North Asia, NW Europe, Red Sea, Singapore and USA - combined into a single accessible source.      | August 2025     |
-| **Arb Fuel Oil +**                       | All Fuel Oil + CBFS + VGO being bought in the WEST and sold in the EAST.                                                | September 2025  |
-| **Arb Crude**                            | All Crude Oil being bought in the WEST and sold in the EAST.                                                | September 2025  |
-| **Iranian Champagne**                     | Tracks the Iranian Tanker Fleet and how their Crude and Fuel Oil is moving.                                             | October 2025    |
-| **Fuel Oil Movements East of Suez**       | Detailed insights on all Fuel Oil trades East of Suez.                                                | October 2025    |
+| API | Description | Availability |
+|---|---|---|
+| **[Arrivals](arrivals/arrivals-api) <sup>BETA</sup>** | Our six Fuel Oil/ Heavy Sweet Arrivals reports; Arabian Gulf, North Asia, NW Europe, Red Sea, Singapore and USA - combined into a single accessible source. | August 2025 |
+| **Arb Fuel Oil +** | All Fuel Oil + CBFS + VGO being bought in the WEST and sold in the EAST. | September 2025 |
+| **Arb Crude** | All Crude Oil being bought in the WEST and sold in the EAST. | September 2025 |
+| **Iranian Champagne** | Tracks the Iranian Tanker Fleet and how their Crude and Fuel Oil is moving. | October 2025 |
+| **Fuel Oil Movements East of Suez** | Detailed insights on all Fuel Oil trades East of Suez. | October 2025 |
 
 *Click an available API name for full technical documentation, schema, and usage examples.*
 
