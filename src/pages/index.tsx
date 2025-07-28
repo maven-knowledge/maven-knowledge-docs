@@ -2,5 +2,5 @@ import React from 'react';
 import { Redirect } from '@docusaurus/router';
 
 export default function Home() {
-  return <Redirect to="/maven-knowledge-docs/docs/introduction" />;
+  return <Redirect to="/docs/introduction" />;
 }
