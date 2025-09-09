@@ -5,6 +5,8 @@ This table documents every available column, data type, and its meaning.
 
 For guidance on how to filter or query using these columns, see [Example Queries & Filtering](../queries.md).
 
+*Please note: The examples provided in the table are designed to explain each field, as opposed to necessarily being a true reflection of the 'report_line' example given.*
+
 ---
 
 ## Columns

@@ -1,10 +1,10 @@
-# Arrivals Code Example
+# Arb Fuel Oil+ Code Example
 
-This section provides a ready-to-use Python script to authenticate, download, and export data from the Maven Knowledge Arrivals API. It handles both authentication and pagination, and outputs a CSV file containing all rows you are permitted to access.
+This section provides a ready-to-use Python script to authenticate, download, and export data from the Maven Knowledge Arb Fuel Oil+ API. It handles both authentication and pagination, and outputs a CSV file containing all rows you are permitted to access.
 
 You can use this same script for both endpoints:
-- **All Arrivals data:** Use `/rest/v1/arrivals_all` to download all arrivals since your assigned access date.
-- **Recent Arrivals data:** Replace `/arrivals_all` with `/arrivals_latest` to fetch only the most recent week's arrivals.
+- **All Arb Fuel Oil+ data:** Use `/rest/v1/arb_fuel_all` to download all Arb Fuel Oil+ report data since your assigned access date.
+- **Recent Arb Fuel Oil+ data:** Replace `/arb_fuel_all` with `/arb_fuel_latest` to fetch only the most recent week's Arb Fuel Oil+ report data.
 
 Simply update the **MK_API_KEY**, **CLIENT_EMAIL** and **CLIENT_PASSWORD** in the configuration block before running.
 
@@ -13,7 +13,7 @@ Simply update the **MK_API_KEY**, **CLIENT_EMAIL** and **CLIENT_PASSWORD** in th
 ## Example Python Script
 
 ```python
-#--- Arrivals All Example ---
+#--- Arb Fuel Oil+ All Example ---
 
 # Install dependencies (uncomment if running in Colab or first time)
 # !pip install requests pandas --quiet
@@ -44,8 +44,8 @@ else:
     raise SystemExit("Please check your email/password and try again.")
 
 # === STEP 2: Fetch Data with Pagination ===
-print("📥 Downloading data from arrivals_all...")
-rest_url = f"{MK_API_URL}/rest/v1/arrivals_all"
+print("📥 Downloading data from arb_fuel_all...")
+rest_url = f"{MK_API_URL}/rest/v1/arb_fuel_all"
 headers = {"apikey": MK_API_KEY, "Authorization": f"Bearer {access_token}"}
 
 all_data = []
@@ -76,7 +76,7 @@ else:
 
 # === STEP 3: Save to CSV ===
 df = pd.DataFrame(all_data)
-output_file = "maven_knowledge_arrivals_all.csv"
+output_file = "maven_knowledge_arb_fuel_all.csv"
 df.to_csv(output_file, index=False)
 print(f"💾 Data saved to {output_file}")
 ```
@@ -84,15 +84,15 @@ print(f"💾 Data saved to {output_file}")
 ---
 
 :::tip
-To fetch only Arrivals data from the most recent report cycle (week), change this line:
+To fetch only Arb Fuel Oil+ data from the most recent report cycle (week), change this line:
 
 ```python
-rest_url = f"{MK_API_URL}/rest/v1/arrivals_all"
+rest_url = f"{MK_API_URL}/rest/v1/arb_fuel_all"
 ```
 to:
 
 ```python
-rest_url = f"{MK_API_URL}/rest/v1/arrivals_latest"
+rest_url = f"{MK_API_URL}/rest/v1/arb_fuel_latest"
 ```
 :::
 

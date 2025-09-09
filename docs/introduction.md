@@ -16,7 +16,6 @@ We're still actively developing features, refining data, and enhancing our docum
 _Exciting times—thanks for being part of our early adopter community._
 :::
 
-
 ---
 
 ## Why Maven Knowledge APIs?
@@ -33,11 +32,9 @@ _Exciting times—thanks for being part of our early adopter community._
 
 | API | Description | Availability |
 |---|---|---|
-| **[Arrivals](arrivals/arrivals-api) <sup>BETA</sup>** | Our six Fuel Oil/ Heavy Sweet Arrivals reports; Arabian Gulf, North Asia, NW Europe, Red Sea, Singapore and USA - combined into a single accessible source. | August 2025 |
-| **Arb Fuel Oil +** | All Fuel Oil + CBFS + VGO being bought in the WEST and sold in the EAST. | September 2025 |
-| **Arb Crude** | All Crude Oil being bought in the WEST and sold in the EAST. | September 2025 |
-| **Iranian Champagne** | Tracks the Iranian Tanker Fleet and how their Crude and Fuel Oil is moving. | October 2025 |
-| **Fuel Oil Movements East of Suez** | Detailed insights on all Fuel Oil trades East of Suez. | October 2025 |
+| <span className="nowrap">**<a href="arrivals/arrivals-api">Arrivals</a>** <sup>BETA</sup></span> | Our six Fuel Oil/ Heavy Sweet Arrivals reports; Arabian Gulf, North Asia, NW Europe, Red Sea, Singapore and USA - combined into a single accessible source. | August 2025 |
+| <span className="nowrap">**<a href="arb_crude/arb_crude-api">Arb Crude</a>** <sup>BETA</sup></span> | All Crude Oil being bought and sold across the EAST/WEST arbitrage. | September 2025 |
+| <span className="nowrap">**<a href="arb_fuel/arb_fuel-api">Arb Fuel Oil +</a>** <sup>BETA</sup></span> | All Fuel Oil + CBFS + VGO being bought and sold across the EAST/WEST arbitrage. | September 2025 |
 
 *Click an available API name for full technical documentation, schema, and usage examples.*
 
@@ -97,5 +94,3 @@ If you have questions, encounter any issues, or need help integrating:
 :::tip Ready to get started?
 Jump to our [Arrivals API](arrivals/arrivals-api.md), explore [Queries & Filtering](queries.md), or visit [Authentication](authentication.md) to begin.
 :::
-
-

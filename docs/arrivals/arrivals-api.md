@@ -21,7 +21,7 @@ The Maven Knowledge **Arrivals API** gives you structured, secure access to our 
 
 ---
 
-## Example Payload
+## Example Response
 
 Here’s a typical JSON response row from `/rest/v1/arrivals_all` (truncated for clarity):
 
